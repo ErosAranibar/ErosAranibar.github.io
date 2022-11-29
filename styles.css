@@ -1,0 +1,44 @@
+
+html,body { 
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 5rem;
+	color:rgba(255, 255, 255,0.7);
+
+}
+
+.buffer{
+	height: 10rem;
+}
+
+
+hr{
+margin:20px auto;
+color:rgba(255, 255, 255,1);
+border:3px solid rgba(255, 255, 255,1);
+max-width: 70px;
+opacity: 1;
+}
+
+.btn-xl{
+padding:1rem 2rem;
+
+}
+
+.btn{
+background-color: rgba(108, 125, 163,0.8);
+border-color:rgba(108, 125, 163);
+}
+
+.btn-success:hover {
+background-color: red;
+}
+
